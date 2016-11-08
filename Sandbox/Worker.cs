@@ -7,13 +7,13 @@ namespace Sandbox
 {
     class Worker:Employee
     {
-        private string truckDriver;
-        private string maintenance;
+        
+        private string skill;
 
-        public Worker(string name, int salaryPerMonth) : base(name, salaryPerMonth)
-        { 
+        public Worker(string name, int salaryPerMonth, string skill) : base(name, salaryPerMonth)
+        {
+            this.skill = skill;
         }
 
-        Worker worker1 = new Worker("John", 1230);
     }
 }
