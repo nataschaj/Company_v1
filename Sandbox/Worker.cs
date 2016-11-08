@@ -5,8 +5,13 @@ using System.Text;
 
 namespace Sandbox
 {
-    class Worker
+    class Worker:Employee
     {
+        private string truckDriver;
+        private string maintenance;
 
+        public Worker(string name, int salaryPerMonth) : base(name, salaryPerMonth)
+        { 
+        }
     }
 }
