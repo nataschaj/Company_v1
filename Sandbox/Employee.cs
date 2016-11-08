@@ -7,21 +7,21 @@ namespace Sandbox
 {
     class Employee
     {
-        private String name;
-        private int salaryPerMonth;
+        private String name; //instance field
+        private int salaryPerMonth; //instance field
 
-        public Employee(String name, int salaryPerMonth)
+        public Employee(String name, int salaryPerMonth) //constructor
         {
             this.name = name;
             this.salaryPerMonth = salaryPerMonth;
         }
 
-        public String GetName()
+        public String GetName() //method
         {
             return name;
         }
 
-        public virtual int GetSalaryPerMonth()
+        public virtual int GetSalaryPerMonth() //method
         {
             return salaryPerMonth;
         }
