@@ -13,5 +13,7 @@ namespace Sandbox
         public Worker(string name, int salaryPerMonth) : base(name, salaryPerMonth)
         { 
         }
+
+        Worker worker1 = new Worker("John", 1230);
     }
 }
