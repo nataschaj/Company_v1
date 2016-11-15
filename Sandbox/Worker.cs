@@ -9,11 +9,14 @@ namespace Sandbox
     {
         
         private string skill;
+        public string Getskill { get; set; }
 
         public Worker(string name, int salaryPerMonth, string skill) : base(name, salaryPerMonth)
         {
             this.skill = skill;
         }
+
+        
 
     }
 }
